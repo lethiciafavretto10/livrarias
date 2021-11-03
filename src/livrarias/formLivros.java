@@ -102,6 +102,7 @@ public class formLivros extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         tfAutor = new javax.swing.JLabel();
         cbAutor = new javax.swing.JComboBox<>();
+        jButton4 = new javax.swing.JButton();
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -198,6 +199,8 @@ public class formLivros extends javax.swing.JFrame {
 
         tfAutor.setText("Autor:");
 
+        jButton4.setText("Fechar");
+
         javax.swing.GroupLayout TLIVROSLayout = new javax.swing.GroupLayout(TLIVROS);
         TLIVROS.setLayout(TLIVROSLayout);
         TLIVROSLayout.setHorizontalGroup(
@@ -238,18 +241,24 @@ public class formLivros extends javax.swing.JFrame {
                                             .addComponent(Ano, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(TLIVROSLayout.createSequentialGroup()
                                         .addGap(18, 18, 18)
-                                        .addComponent(cbAutor, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                                        .addComponent(cbAutor, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                     .addGroup(TLIVROSLayout.createSequentialGroup()
-                        .addGap(82, 82, 82)
-                        .addComponent(jButton1)
-                        .addGap(43, 43, 43)
-                        .addComponent(jButton2)
-                        .addGap(56, 56, 56)
-                        .addComponent(jButton3))
-                    .addGroup(TLIVROSLayout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(74, Short.MAX_VALUE))
+                        .addGroup(TLIVROSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(TLIVROSLayout.createSequentialGroup()
+                                .addGap(82, 82, 82)
+                                .addComponent(jButton1)
+                                .addGap(43, 43, 43)
+                                .addComponent(jButton2)
+                                .addGap(56, 56, 56)
+                                .addComponent(jButton3)
+                                .addGap(57, 57, 57)
+                                .addComponent(jButton4))
+                            .addGroup(TLIVROSLayout.createSequentialGroup()
+                                .addGap(43, 43, 43)
+                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGap(37, 37, 37))
         );
         TLIVROSLayout.setVerticalGroup(
             TLIVROSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -284,7 +293,8 @@ public class formLivros extends javax.swing.JFrame {
                 .addGroup(TLIVROSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(jButton3)
+                    .addComponent(jButton4))
                 .addGap(33, 33, 33)
                 .addGroup(TLIVROSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tPesquisar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -443,6 +453,7 @@ public class formLivros extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
